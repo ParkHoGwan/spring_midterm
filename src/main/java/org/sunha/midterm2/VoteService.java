@@ -1,4 +1,4 @@
-package org.hogwan.midterm2;
+package org.sunha.midterm2;
 
 import java.util.List;
 
