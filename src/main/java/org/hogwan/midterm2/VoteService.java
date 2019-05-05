@@ -1,4 +1,4 @@
-package org.sumha.midterm2;
+package org.hogwan.midterm2;
 
 import java.util.List;
 
@@ -19,14 +19,14 @@ public class VoteService {
 		Vote vote = new Vote();
 		vote.setPollId("1");
 		vote.setUserId("21");
-		vote.setName("í™©ì„ í•˜");
+		vote.setName("?™©?„ ?•˜");
 		vote.setChoice(5);
 
 		try {
 				voteDao.addVote(vote);
-				logger.debug("íˆ¬í‘œê°€ ì˜ ë˜ì—ˆìŠµë‹ˆë‹¤.");
+				logger.debug("?ˆ¬?‘œê°? ?˜ ?˜?—ˆ?Šµ?‹ˆ?‹¤.");
 			} catch (DuplicateKeyException e) { 
-				logger.error("ì´ë¯¸ íˆ¬í‘œí•˜ì…¨ìŠµë‹ˆë‹¤.");
+				logger.error("?´ë¯? ?ˆ¬?‘œ?•˜?…¨?Šµ?‹ˆ?‹¤.");
 			}
 		}
 

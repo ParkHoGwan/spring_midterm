@@ -1,4 +1,4 @@
-package org.sumha.midterm2;
+package org.hogwan.midterm2;
 
 public class Vote {
 	String pollId;
