@@ -5,5 +5,4 @@ build/
 gradle/
 gradlew*
 settings.gradle
-db.properties
-
+db-properties
